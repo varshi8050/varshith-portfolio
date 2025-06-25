@@ -29,29 +29,6 @@ export function Footer() {
               Full-Stack Developer passionate about creating innovative digital solutions. Ready to bring your ideas to
               life with modern technologies and creative problem-solving.
             </p>
-            <div className="flex justify-center md:justify-start space-x-4">
-              <motion.a
-                href="#"
-                whileHover={{ scale: 1.1, y: -2 }}
-                className="w-12 h-12 bg-purple-600/20 hover:bg-purple-600/40 rounded-full flex items-center justify-center transition-all duration-300 border border-purple-500/30 hover:border-purple-400/50 group"
-              >
-                <Github className="h-5 w-5 text-purple-400 group-hover:text-white" />
-              </motion.a>
-              <motion.a
-                href="#"
-                whileHover={{ scale: 1.1, y: -2 }}
-                className="w-12 h-12 bg-purple-600/20 hover:bg-purple-600/40 rounded-full flex items-center justify-center transition-all duration-300 border border-purple-500/30 hover:border-purple-400/50 group"
-              >
-                <Linkedin className="h-5 w-5 text-purple-400 group-hover:text-white" />
-              </motion.a>
-              <motion.a
-                href="#"
-                whileHover={{ scale: 1.1, y: -2 }}
-                className="w-12 h-12 bg-purple-600/20 hover:bg-purple-600/40 rounded-full flex items-center justify-center transition-all duration-300 border border-purple-500/30 hover:border-purple-400/50 group"
-              >
-                <Twitter className="h-5 w-5 text-purple-400 group-hover:text-white" />
-              </motion.a>
-            </div>
           </motion.div>
 
           {/* Quick Links */}
@@ -117,8 +94,7 @@ export function Footer() {
           className="border-t border-purple-500/20 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center text-center sm:text-left gap-4"
         >
           <p className="text-gray-400 flex items-center gap-2 text-lg">
-            © 2024 Varshith V Poojary. Made with <Heart className="h-5 w-5 text-red-500 animate-pulse" /> and lots of
-            coffee.
+            © 2025 Varshith V Poojary. All rights reserved.
           </p>
           <Button
             onClick={scrollToTop}
