@@ -120,8 +120,6 @@ export async function POST(request: NextRequest) {
           
           <ul style="color: #334155; line-height: 1.6;">
             <li>Check out my latest projects</li>
-            <li>Connect with me on LinkedIn</li>
-            <li>Follow my work on GitHub</li>
           </ul>
           
           <p style="font-size: 16px; line-height: 1.6; color: #334155;">
