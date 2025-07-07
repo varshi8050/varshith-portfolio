@@ -69,6 +69,12 @@ export default function AboutPage() {
       image: "/images/certificates/communication-skills.jpg",
       link: "#",
     },
+    {
+      title: "Ethical Hacking : Mobile Devices and Platforms",
+      issuer: "Ethical Hacking Academy",
+      image: "/images/certificates/ethical-hacking.jpg",
+      link: "#",
+    },
   ]
 
   return (
