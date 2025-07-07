@@ -40,8 +40,21 @@ export default function AboutPage() {
     { name: "JavaScript", level: 85, color: "bg-yellow-500" },
     { name: "PHP", level: 80, color: "bg-purple-500" },
     { name: "MySQL", level: 75, color: "bg-blue-500" },
+    { name: "C", level: 88, color: "bg-red-500" },
+    { name: "C++", level: 88, color: "bg-red-500" },
+    { name: "Python", level: 85, color: "bg-yellow-500" },
+    { name: "React", level: 55, color: "bg-blue-500" },
+    { name: "Node.js", level: 60, color: "bg-purple-500" },
+    { name: "Java", level: 80, color: "bg-blue-500" },
+    { name: "Advanced Java", level: 80, color: "bg-blue-500" },
+    { name: "C#", level: 85, color: "bg-blue-500" },
+    { name: "Data Structures And Algorithms", level: 75, color: "bg-blue-500" },
+    { name: "Git", level: 70, color: "bg-green-500" },
     { name: "Communication", level: 95, color: "bg-green-500" },
-    { name: "Problem Solving", level: 88, color: "bg-red-500" },
+    { name: "Agile Methodologies", level: 75, color: "bg-orange-500" },
+    { name: "Problem Solving", level: 90, color: "bg-red-500" },
+    { name: "Teamwork", level: 95, color: "bg-purple-500" },
+    { name: "Adaptability", level: 85, color: "bg-yellow-500" },
   ]
 
   const certifications = [
