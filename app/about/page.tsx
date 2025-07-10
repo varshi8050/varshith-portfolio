@@ -88,6 +88,30 @@ export default function AboutPage() {
       image: "/images/certificates/ethical-hacking.jpg",
       link: "#",
     },
+     {
+      title: "How To Boost Your Productivity With AI Tools",
+      issuer: "Project Management Institute",
+      image: "/images/certificates/ai-productivity.jpg",
+      link: "#",
+    },
+        {
+      title: "Excel With Copilot: AI- Driven Data Analysis",
+      issuer: "Microsoft & LinkedIn",
+      image: "/images/certificates/excel-copilot.jpg",
+      link: "#",
+    },
+      {
+      title: "Copilot in Teams: AI-Powered Collaboration",
+      issuer: "Microsoft & LinkedIn",
+      image: "/images/certificates/copilot-teams.jpg",
+      link: "#",
+    },
+    {
+      title: "Copilot in Outlook: Maximize Your Workday Efficiency",
+      issuer: "Microsoft & LinkedIn",
+      image: "/images/certificates/copilot-outlook.jpg",
+      link: "#",
+    },
   ]
 
   return (
