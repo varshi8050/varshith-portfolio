@@ -16,7 +16,7 @@ export default function AboutPage() {
       year: "2022–2025",
       degree: "Bachelor of Computer Applications (BCA)",
       institution: "St Mary's College, Shriva",
-      percentage: "7.11CGPA",
+      percentage: "8.4 CGPA",
       university: "Mangalore University",
       status: "Completed",
     },
