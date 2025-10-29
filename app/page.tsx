@@ -121,7 +121,7 @@ export default function HomePage() {
                   size="lg"
                   className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white group"
                 >
-                  <a href="/resume/varshith-resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/resume/varshith-resume1.pdf" target="_blank" rel="noopener noreferrer">
                     <Download className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                     Resume
                   </a>
@@ -232,7 +232,7 @@ export default function HomePage() {
                   size="lg"
                   className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white group"
                 >
-                  <a href="/resume/varshith-resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/resume/varshith-resume1.pdf" target="_blank" rel="noopener noreferrer">
                     <Download className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                     Download Resume
                   </a>

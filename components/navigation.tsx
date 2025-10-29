@@ -76,7 +76,7 @@ export function Navigation() {
                 suppressHydrationWarning={true}
                 className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white text-xs lg:text-sm"
               >
-                <a href="/resume/varshith-resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/resume/varshith-resume1.pdf" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>
@@ -143,7 +143,7 @@ export function Navigation() {
                     className="w-full border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white min-h-[44px]"
                   >
                     <a
-                      href="/resume/varshith-resume.pdf"
+                      href="/resume/varshith-resume1.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() => setIsOpen(false)}
