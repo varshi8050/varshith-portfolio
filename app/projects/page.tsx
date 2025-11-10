@@ -1,11 +1,13 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ExternalLink, Calendar, Users, CreditCard, MapPin, X } from "lucide-react"
+import { ExternalLink, Calendar, Users, CreditCard, MapPin, X  } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
+
+
 
 export default function ProjectsPage() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null)
@@ -82,9 +84,39 @@ export default function ProjectsPage() {
       showButtons: true, // Show buttons for this project
       liveUrl: "https://smcpremireleague.wuaze.com", // 👈 ADD YOUR LIVE URL HERE
     },
+
+    {
+  id: 4,
+  title: "Chess Application (In Progress)",
+  subtitle: "Mobile Chess App — 1v1, AI & Puzzle Modes",
+  description:
+    "A cross-platform mobile chess application featuring 1v1 multiplayer, AI opponents with adjustable difficulty, and puzzle training for tactical improvement.",
+  longDescription:
+    "Developing a high-performance mobile chess application using React Native and TypeScript. The app supports real-time 1v1 multiplayer matches, an AI opponent with multiple difficulty levels, and a puzzle mode for tactical practice. Focus areas include accurate chess logic (move validation, check/checkmate/stalemate detection), smooth animations, low-latency real-time sync, and an intuitive UX across devices. Admin/utility features planned include PGN export/import, match history, ELO-style rating, and offline play against AI.",
+  image: "/images/projects/chess-app.jpg",
+  technologies: [
+    "React Native",
+    "TypeScript",
+    "JavaScript",
+  ],
+  features: [
+    "1v1 real-time multiplayer with matchmaking",
+    "Adjustable AI opponent (multiple difficulty levels)",
+    "Puzzle training mode with timed tactics",
+    "Accurate chess rules & move validation (castling, en passant, promotion)",
+    "Smooth animations and responsive UI",
+    "Offline play against AI"
+  ],
+  category: "Mobile App",
+  status: "In Progress",
+  icon: Calendar,
+  showButtons: false,
+  liveUrl: "", // add live/demo link when available // add or remove as needed
+}
+
   ]
 
-  const categories = ["All", "Full-Stack", "Web Application", "Registration System"]
+  const categories = ["All", "Full-Stack", "Web Application", "Registration System", "Mobile App"]
   const [activeCategory, setActiveCategory] = useState("All")
 
   const filteredProjects =
