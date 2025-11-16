@@ -59,6 +59,18 @@ export default function AboutPage() {
   ]
 
   const certifications = [
+      {
+      title: "Cyber Job Simulation",
+      issuer: "Deloitte",
+      image: "/images/certificates/deloitte.jpg",
+      link: "#",
+    },
+     {
+      title: "Cybersecurity Analyst Job Simulation",
+      issuer: "TATA",
+      image: "/images/certificates/tata.jpg",
+      link: "#",
+    },
     {
       title: "Microsoft Copilot for Productivity",
       issuer: "Microsoft & LinkedIn",
